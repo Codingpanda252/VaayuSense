@@ -1,0 +1,90 @@
+
+.launch-page {
+    display: flex;
+    flex-direction: column;
+
+
+    height: 100vh;
+    width: 358px;
+    background: url(back.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    position: relative; 
+  }
+  
+  .bottom-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0; 
+    color: white;
+    padding: 10px 0;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bottom-navbar a {
+    text-decoration: none;
+    color: #333; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .bottom-navbar a:hover {
+    background-color: #333; 
+    color: white; 
+  }
+  
+  .bottom-navbar a:last-child {
+    margin-right: 0;
+  }
+  
+
+  .logout {
+    width: 100px;
+    margin-left: 0px; 
+    top: 10px;
+  }
+  .logo{
+    padding: 20px;
+    width: 5px;
+    height: 5px;
+    margin: 10px;
+    background-color: red;
+  }
+  .brand{
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 20px;
+  }
+  .nav{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+
+    color: white;
+    padding: 10px 0;
+
+    
+  }
+  .nav div {
+    text-decoration: none;
+    color: #333; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .nav div:hover {
+    background-color: #333; 
+    color: white; 
+  }
+  
